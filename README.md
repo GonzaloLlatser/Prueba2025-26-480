@@ -20,7 +20,7 @@ The project includes a Main class to instantiate objects, set attributes, and ex
 ## 📦 Project Structure
 
 <p align="center">
-  <img src="../Documentación/Esquema.png" width="700">
+  <img src="./Documentación/Esquema.png" width="700">
 </p>
 
 
