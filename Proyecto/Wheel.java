@@ -23,7 +23,25 @@ public class Wheel extends AbstractRotatableObject {
 
   @Override
   public String toString() {
-    return "{" + "}";
+    return (
+      "Wheel Info:\n" +
+      "-------------------\n" +
+      "Name: " +
+      getName() +
+      "\n" +
+      "Type: " +
+      getType() +
+      "\n" +
+      "Rotation Speed: " +
+      getRotationSpeed() +
+      "\n" +
+      "Status: " +
+      getStatus() +
+      "\n" +
+      "Manufacture Date: " +
+      getManufactureDate() +
+      "\n"
+    );
   }
 
   @Override

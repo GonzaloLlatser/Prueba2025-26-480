@@ -23,4 +23,36 @@ public class HardDiscDrive
   public void spin() {
     System.out.println("The hard disk drive is spinning.");
   }
+
+  @Override
+  public String toString() {
+    return (
+      "HardDisc Info:\n" +
+      "-------------------\n" +
+      "Name: " +
+      getName() +
+      "\n" +
+      "Content: " +
+      getContent() +
+      "\n" +
+      "Type: " +
+      getType() +
+      "\n" +
+      "Brand: " +
+      getBrand() +
+      "\n" +
+      "Rotation Speed: " +
+      getRotationSpeed() +
+      "\n" +
+      "Status: " +
+      getStatus() +
+      "\n" +
+      "Manufacture Date: " +
+      getManufactureDate() +
+      "\n" +
+      "Rewritable: " +
+      isIsRewritable() +
+      "\n"
+    );
+  }
 }

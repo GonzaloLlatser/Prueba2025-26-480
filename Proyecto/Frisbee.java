@@ -4,10 +4,12 @@ import java.util.Objects;
 
 public class Frisbee extends AbstractRotatableObject {
 
-  @Override
-  public void spin() {}
-
   public Frisbee() {}
+
+  @Override
+  public void spin() {
+    System.out.println("The Frisbee is spinning.");
+  }
 
   @Override
   public boolean equals(Object o) {
@@ -26,6 +28,24 @@ public class Frisbee extends AbstractRotatableObject {
 
   @Override
   public String toString() {
-    return "{" + "}";
+    return (
+      "Frisbee Info:\n" +
+      "-------------------\n" +
+      "Name: " +
+      getName() +
+      "\n" +
+      "Type: " +
+      getType() +
+      "\n" +
+      "Rotation Speed: " +
+      getRotationSpeed() +
+      "\n" +
+      "Status: " +
+      getStatus() +
+      "\n" +
+      "Manufacture Date: " +
+      getManufactureDate() +
+      "\n"
+    );
   }
 }
